@@ -1,0 +1,17 @@
+{
+    "name": "ocramius/example-zf3-exception-handling",
+    "description": "Example application to show error handling in practice",
+    "type": "project",
+    "require": {
+        "php": "^7.1",
+        "zendframework/zend-mvc": "^3.0.1",
+        "zendframework/zend-json": "^3.0",
+        "zendframework/zend-log": "^2.9",
+        "ocramius/package-versions": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Application\\": "module/Application/src/"
+        }
+    }
+}
